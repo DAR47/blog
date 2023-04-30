@@ -1,0 +1,52 @@
+body{
+    background-color:dimgray;
+}
+#name {
+    background-position-y:100px;
+    border:solid;
+    border-color:black;
+    background:white;
+    font-size: 40px;
+    color: darkred;
+    font-family: Arial Black;
+    text-align:center;
+}
+.p {
+
+    margin: 0px;
+    width: 600px;
+    background: white;
+    font-size: 30px;
+    color:black;
+    font-family:'Times New Roman';
+    text-align: left;
+}
+#ref{
+    color:darkred;
+    
+
+}
+#ref:hover {
+    color: green;
+}
+#ref:active{
+    color:white;
+}
+.tab {
+    width: 200px;
+    color: darkred;
+}
+#inp {
+
+    width:200px ;
+    height:30px;
+    border-width:1,5px;
+    border-color:black;
+    border-style:solid;
+    font-family:'Times New Roman';
+    font-size:30px;
+    border-radius:8px;
+}
+
+
+
