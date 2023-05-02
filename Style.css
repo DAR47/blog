@@ -1,52 +1,214 @@
-body{
-    background-color:dimgray;
+body {
+  
+
+}
+h1{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.topIn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #name {
-    background-position-y:100px;
-    border:solid;
-    border-color:black;
-    background:white;
-    font-size: 40px;
-    color: darkred;
-    font-family: Arial Black;
-    text-align:center;
+    margin-top: -10px;
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Bauhaus 93';
 }
-.p {
 
-    margin: 0px;
-    width: 600px;
-    background: white;
+nav {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Arial Black';
+}
+
+.ref {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    transition: color .3s linear;
+    position: relative;
+}
+
+    .ref:after {
+        content: "";
+        width: 50%;
+        height: 2px;
+        background-color: darkseagreen;
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        display: block;
+        opacity: 0;
+        transition: opacity .3s linear;
+    }
+
+    .ref:hover {
+        color: darkseagreen;
+    }
+
+        .ref:hover:after {
+            opacity: 1;
+        }
+.inf {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(fone.jpg) no-repeat;
+    background-size: cover;
+}
+.infIn {
+    font-family: "Franklin Gothic Heavy";
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+#top2In {
+    font-size: 50px;
+    font-family: "Franklin Gothic Heavy";
+}
+.facts {
+    display: flex;
+    justify-content: space-between;
+    word-wrap:break-word;
+}
+.facts_top{
+    margin-top:40px;
     font-size: 30px;
-    color:black;
-    font-family:'Times New Roman';
+    font-weight:700;
+    text-transform:uppercase;
+}
+.facts_in{
     text-align: left;
 }
-#ref{
-    color:darkred;
+.facts_r_top {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.facts_r {
+    text-align:left;
     
+}
+.width1 {
+    width:25%
+}
+.width2 {
+    width:25%
+}
+.width3 {
+    width:25%
+}
+.photo {
+    display:grid;
+    font-size: 50px;
+    font-family: "Franklin Gothic Heavy";
+    text-align: center;
+    margin-top: -450px;
+}
+img {
+    margin-top: 20px;
+    width: 300px;
+    height: 533px;
+}
+#top3 {
+    width: 100%;
+    height: 100vh;
+    background: url(fone2.jpg);
+}
+.top3In {
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+#tarif {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Franklin Gothic Heavy";
+}
+.tarif_inf_top {
+    font-family:Arial Black;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-direction:column;
+    text-align:center;
+}
+.tarif_inf {
+    font-family: 'Times New Roman';
+    background-color: #8f96b8;
+    border-style: solid;
+    border-color: #8f96b8;
+    border-radius: 30px;
+    border-width: 20px;
+    font-size: 20px;
+    text-align: left
+}
+.width_inf {
+    padding-top:20%;
+    width: 25%;
+}
+.price {
+    font-size: 30px;
+    font-weight: 700;
+    text-align:center;
+}
+.background {
+    background: url(fone3.jpg)
+}
+#end{
+    background-color:black;
 
 }
-#ref:hover {
-    color: green;
+.contact{
+    color: white;
+    font-family: Arial Black;
 }
-#ref:active{
-    color:white;
+.link {
+    
+    color: white;
+    text-decoration: none;
+    transition: color .3s linear;
+    position: relative;
 }
-.tab {
-    width: 200px;
-    color: darkred;
+.j {
+    display: flex;
+    justify-content: space-between;
 }
-#inp {
-
-    width:200px ;
-    height:30px;
-    border-width:1,5px;
-    border-color:black;
-    border-style:solid;
-    font-family:'Times New Roman';
-    font-size:30px;
-    border-radius:8px;
-}
-
 
 
